@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>DOM Javascribt</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3>Form Pemesanan</h3>
+            </div>
+            <form action="">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Nama anda" id="nama"><br><br>
+                <label for="tanggal">Tanggal Pemesanan</label><br>
+                <input type="datetime-local" id="Test_datetimeLocal"><br><br>
+                <label for="jenis_k">Jenis Kelamin</label><br>
+                <select id="jenis_k">
+                    <option value="">Jenis Kelamin</option>
+                    <option>Perempuan</option>
+                    <option>Laki-laki</option>
+                </select><br><br>
+                <p>Daftar menu:</p>
+
+                <input type="radio" name="paket" id="paket1" value="4K 1Jam : Reguler">
+                <label for="paket1">4K 1Jam : Reguler</label> <br>
+                <input type="radio" name="paket" id="paket2" value="5K 1jam : VIP">
+                <label for="paket2">5K 1Jam : VIP</label> <br>
+                <input type="radio" name="paket" id="paket3" value="6K 1jam : BattleArena">
+                <label for="paket3">6K 1Jam BattleArena</label> <br>
+                <input type="radio" name="paket" id="paket4" value="32K BattleArena Paket Malam">
+                <label for="paket4">32K BattleArena Paket Malam</label> <br>
+                <label for="no_antri">No antrian</label><br>
+                <input type="text" placeholder="No antrian anda" id="nim"><br>
+                <label for="">Paket Custom</label> <br>
+                <textarea placeholder="Tulis paket yang ingin di beli dan jumlah waktu" name="custom" id="custom" cols="30" rows="5"></textarea><br><br>
+        <head>
+        </head>
+        <button type="Submit" onclick="kirimData()">Kirim</button>
+        </form>
+        </div>
+        
+        <script src="Exe2.js"></script>
+    </body>
+</html>
